@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* ป้องกันการเลื่อนหน้าเว็บ */
+}
+
+#header {
+  background-color: #7d2923;
+  height: 10%;
+}
+
+main {
+  height: 90%;
+}
+
+#line {
+  background-color: #bd8f5d;
+}
+
+#line-under {
+  background-color: #bd8f5d;
+}
+
+#signin {
+  background-color: #7d2923;
+}
+#signin:hover {
+  transition: 0.2s;
+  background-color: #611e19;
+}
+
+#signup {
+  border-color: white;
+  color: #7d2923;
+}
+
+#signup:hover {
+  transition: 0.2s;
+  color: #571c17;
+}
+
+#register {
+  background-color: #7d2923;
+}
+
+#register:hover {
+  transition: 0.2s;
+  background-color: #611e19;
+}
